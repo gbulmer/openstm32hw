@@ -1,0 +1,12 @@
+openstm32 README
+
+The aim is to provide Open Source hardware designs for STM32.
+
+This repository grew from a discussion thread on LeafLabs Maple forum:
+http://forums.leaflabs.com/topic.php?id=1303
+
+It was initially triggered by ala42 who had released a first cut at libmaple for STM32F4:
+http://forums.leaflabs.com/topic.php?id=1268&page=2#post-7828
+
+and siy's hardware design:
+http://forums.leaflabs.com/topic.php?id=1303&page=2&replies=46#post-7882
