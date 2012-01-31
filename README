@@ -1,4 +1,4 @@
-openstm32 README
+openstm32hw README
 
 The aim is to provide Open Source hardware designs for STM32.
 
@@ -10,3 +10,14 @@ http://forums.leaflabs.com/topic.php?id=1268&page=2#post-7828
 
 and siy's hardware design:
 http://forums.leaflabs.com/topic.php?id=1303&page=2&replies=46#post-7882
+
+
+Subdirs:
+
+	MM4 - Leaf Labs Maple Mini clone for 64 pin F1/L1/F4 processors
+		in 0.8" width and 2 layers.
+
+	Mini64 - STM32 development board for OpenSTM32
+		 Features:
+		 - Small (52x38.4mm) breadboard compatible design.
+		 - Support for STM32F103/F2xx/F4xx in 64-pin packages.
