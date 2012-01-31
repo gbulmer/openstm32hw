@@ -1,0 +1,27 @@
+This design is a clone of Leaf Labs Maple Mini board (called MM4) with the following variations
+	from the original:
+
+	- 0.8 inch pitch between connectors rather than 0.6". This means dual rows of 
+		sip connectors are required rather than a 40 pin dip (a socket layout can 
+		easily be defined for either LeafLabs or MM4 using 3 sip connectors.)
+
+	- identical pin functions except for the above mentioned pitch change.
+
+	- two layer layout in Eagle which can be modified with the free version of 
+		Eagle (original was done with Eagle v6.1). Ground planes that are 
+		as large as practical are used given the two layer constraint (modification 
+		to internal power/ground planes is, of course, fairly straightforward, 
+		but requires the much more expensive Eagle license).
+
+	- 64 pin processor that can be STM32F10xC/D/E orSTM32F4 or STM32L1 series. This means 
+		the F1 chip variants with larger memories can be used or the L1 low power series 
+		(F1 and L1 require two solder bridge jumpers to be installed), or the faster Cortex-M4 F4 series.
+
+	- considerably less detailed top silkscreen layer in this version of MM4.
+
+	- The USB termination function has been re-implemented with a dedicated USB terminator
+		chip that contains the termination resistors and the signalling resistor to
+		describe the board to an up-stream host as a full speed USB peripheral.
+		The disconnect function is then separately implemented with an open collector 
+		inverter. The original implemented the signalling and disconnect via a 
+		transistor/resistor network.
