@@ -1,4 +1,7 @@
 Mini64 is a STM32 development board for OpenSTM32 project (https://github.com/gbulmer/openstm32).
+The design is Copyright (C) 2011-2012 Sergiy Yevtushenko and is distributed under terms and conditions
+of Creative Commons Attribution-ShareAlike license (see http://creativecommons.org/licenses/by-sa/3.0/legalcode
+for details).
 
 Features:
 - Small (52x38.4mm) breadboard compatible design.
@@ -12,13 +15,14 @@ Features:
 - One user button connected as in Maple board
 - Two user LEDs, one connected as in Maple board and one connected as in Maple Mini board
 
-The design files were created in Eagle 5.11.
+The design files were created in Eagle 5.11. Pictures of board can be found at 
+https://picasaweb.google.com/101499174242780444159/Mini64.
 
 At present design is single sided and suitable for DIY PCB production, although the requirements
 to the production process is quite high - board uses 0.15/0.15mm traces/spaces and designed with
 presence of solder mask in mind. The design is optimized for dry film negative photoresist process. 
 Design files as-is are ready to use for ordering boards at some PCB production service.
-Although they can be used For DIY production too, it might be useful to do following changes 
+Although they can be used for DIY production too, it might be useful to do following changes 
 in the design files before creating photomask:
 
 - Increase width of the dimension rectangle to 0.2mm and include it into top layer and 
