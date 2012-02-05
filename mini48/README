@@ -1,0 +1,39 @@
+Mini48 is a STM32 development board for OpenSTM32 project (https://github.com/gbulmer/openstm32).
+This design is significantly modified Maple Mini R2 with some changes in schematic (no separate
+analog ground, added RTC crystal) and completely new PCB (single layer, 0.7" row header spacing).
+
+Copyright (C) LeafLabs (sorry, don't know exact years) 
+Changes Copyright (C) 2012 Sergiy Yevtushenko.
+
+Just like original design, modified version is distributed under terms and conditions
+of Creative Commons Attribution-ShareAlike license 
+(see http://creativecommons.org/licenses/by-sa/3.0/legalcode for details).
+
+Features:
+- Small (51.4x21.2mm) breadboard compatible design.
+- Compatible with Maple Mini, although ADC noise chaacteristics might be worse
+- RTC crystal on board
+
+The design files were created in Eagle 5.11. Pictures of board can be found at 
+https://picasaweb.google.com/101499174242780444159/Mini48.
+
+At present design is single sided and suitable for DIY PCB production, although the requirements
+to the production process is quite high - board uses 0.15/0.15mm traces/spaces and designed with
+presence of solder mask in mind. The design is optimized for dry film negative photoresist process. 
+Design files as-is are ready to use for ordering boards at some PCB production service.
+Although they can be used for DIY production too, it might be useful to do following changes 
+in the design files before creating photomask:
+
+- Increase width of the dimension rectangle to 0.2mm and include it into top layer and 
+  solder mask photomasks.
+- Change width of default net class tracks to 0.17mm.
+- Change width of vcc net class tracks except GND polygon to 0.32mm. 
+- Change width of GND polygon wire to 0.1mm
+
+NOTE: After these changes board will not pass DRC! If you plan make further modifications in the 
+PCB changed as described above, change DRC rules accordingly.
+
+Comments and suggestions are welcome.
+
+Regards,
+    Sergiy Yevtushenko <Sergiy.Yevtushenko@gmail.com>
