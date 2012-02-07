@@ -21,6 +21,7 @@ Subdirs:
 		 Features:
 		 - Small (52x38.4mm) breadboard compatible design.
 		 - Support for STM32F103/F2xx/F4xx in 64-pin packages.
+		 - Uses Eagle 5.1
 
 	Mini48 - Reworked version of Maple Mini suitable for DIY PCB production
-		and on-board RTC crystal.
+		and on-board RTC crystal. Uses Eagle 5.1
