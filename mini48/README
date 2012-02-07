@@ -1,22 +1,21 @@
-Mini64 is a STM32 development board for OpenSTM32 project (https://github.com/gbulmer/openstm32).
-The design is Copyright (C) 2011-2012 Sergiy Yevtushenko and is distributed under terms and conditions
-of Creative Commons Attribution-ShareAlike license (see http://creativecommons.org/licenses/by-sa/3.0/legalcode
-for details).
+Mini48 is a STM32 development board for OpenSTM32 project (https://github.com/gbulmer/openstm32).
+This design is significantly modified Maple Mini R2 with some changes in schematic (no separate
+analog ground, added RTC crystal) and completely new PCB (single layer, 0.7" row header spacing).
+
+Copyright (C) LeafLabs (sorry, don't know exact years) 
+Changes Copyright (C) 2012 Sergiy Yevtushenko.
+
+Just like original design, modified version is distributed under terms and conditions
+of Creative Commons Attribution-ShareAlike license 
+(see http://creativecommons.org/licenses/by-sa/3.0/legalcode for details).
 
 Features:
-- Small (52x38.4mm) breadboard compatible design.
-- Support for STM32F103/F2xx/F4xx in 64-pin packages.
-- 3 separate voltage regulators - two small current LDOs for MCU (separate for analog/digital parts) and one 
-  800ma LDO for sourcing external load.
-- LiPol battery charger
+- Small (51.4x21.2mm) breadboard compatible design.
+- Compatible with Maple Mini, although ADC noise chaacteristics might be worse
 - RTC crystal on board
-- CR2032 battery holder for RTC on board
-- Automatic power source selection
-- One user button connected as in Maple board
-- Two user LEDs, one connected as in Maple board and one connected as in Maple Mini board
 
 The design files were created in Eagle 5.11. Pictures of board can be found at 
-https://picasaweb.google.com/101499174242780444159/Mini64.
+https://picasaweb.google.com/101499174242780444159/Mini48.
 
 At present design is single sided and suitable for DIY PCB production, although the requirements
 to the production process is quite high - board uses 0.15/0.15mm traces/spaces and designed with
