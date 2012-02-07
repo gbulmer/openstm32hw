@@ -25,3 +25,11 @@ Subdirs:
 
 	Mini48 - Reworked version of Maple Mini suitable for DIY PCB production
 		and on-board RTC crystal. Uses Eagle 5.1
+
+	PiXe-2: 'Stamp' format, 64pin STM32F103 MCU. Eagle 5.1
+                Features: 
+		- Dual-in-line 0.1" grid
+		- 0805 or larger parts -> easier assembly
+		- Internal Maple pins available & re-configurable
+		- modest 10mil track/space rules DIY-able
+		

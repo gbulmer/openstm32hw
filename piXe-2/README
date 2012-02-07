@@ -1,0 +1,35 @@
+piXe-2 README
+
+PiXe-2 Is a 'Stamp' format, Microcontroller board using a 64pin (LQFP64) ST Micro STM32F Cortex-M3.
+
+The aim is to develop a board suitable for relatively inexperienced microcontroller users who'd like to progress beyond Arduino ATmega boards.
+
+This design is a 'place-holder' for a new design, see "Work-In-Progress".
+
+Pins are aligned to 0.1" grid, so it can be inserted into breadboard or veroboard.
+Pins are on 1.2" pitch, and the board dimensions are 2.9" x 1.4"
+It is a double layer board, with all components on one side.
+
+All STM32F pins are brought to header pins except:
+- USB - these connect directly to the host PC, 
+        so the pins are not available on an pin
+- Main Crystal - these have an onboard crystal
+
+The silk screen carries LeafLabs' Maple pin numbers, so existing Maple programs would work unmodified.
+
+All internal connections are Maple compatible, so an unmodified Maple Bootloader would work. 
+
+Internal connections between pins, required for Maple compatibility, use 'solder bridges', and so can be severed. This enables alternative pins to be used for internal connections, though the bootloader will likely need to be modified.
+
+The external power source 'BAT' pin uses a 'solder bridge' to connect to board power, and so can be severed. This would enable the STM32FReal-Time-clock to be powered from an external power source, such as a hearing-aid battery.
+
+The design uses 10mil track 10mil space except for connection to the 0.5mm pitch STM32F. Parts are relatively large 0805, or larger to faciltate hand assembly by less experienced builders. The board has been fabricated using using DIY techniques. 
+
+The Board PDF has had copper pours 'ripped up' to make the tracks easier to see. It has quite intricate ground planes to reduce crosstalk between signals.
+
+Work-In-Progress
+----------------
+This design is undergoing significant change to redue the board size, accommodate STM32F4, and improve the USB interface electronics. 
+
+WARNING:
+This design has not been debugged.
