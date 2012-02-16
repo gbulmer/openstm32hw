@@ -11,7 +11,7 @@ of Creative Commons Attribution-ShareAlike license
 
 Features:
 - Small (51.4x21.2mm) breadboard compatible design.
-- Compatible with Maple Mini, although ADC noise chaacteristics might be worse
+- Compatible with Maple Mini, although ADC noise characteristics might be worse
 - RTC crystal on board
 
 The design files were created in Eagle 5.11. Pictures of board can be found at 
