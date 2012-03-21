@@ -15,8 +15,8 @@ Features:
 - Compatible with Maple Mini, although ADC noise characteristics might be worse
 - RTC crystal on board
 
-Two versions of board are present. The design of both is very silimal, difference lies in used 
-components. Version 0.6.9 uses smaller parts for USB cirquit and buttons. Also it attempts to solve 
+Two versions of the board are present. The design of both is very similar, the differences lie in used 
+components. Version 0.6.9 uses smaller parts for USB circuit and buttons. Also it attempts to solve 
 main problem of original Maple Mini and uses LM1117 for main power LDO in SOT223 package.
 
 The design files were created in Eagle 5.11 (version 6.1) and Eagle 6.1 (version 6.9).
