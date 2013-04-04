@@ -31,19 +31,25 @@ Subdirs:
 		format of original Maple Mini with 0.6" pin header rows pitch.
 		Uses Eagle 5.1
 
-	Mini48SE - This version is very similar to Maple Mini, but it does not preserve 
-		its pinout. It also heavily utilizes second side to achieve maximal possible density.
-		As a consequence this version is probably smallest STM32F103Cxx board - it has 0.5" pitch
-		and size only 50.5x15mm. At the same time board uses no extremely small components - all 
-		resistors and capacitors are 0603 (one even 0805), LED - 1206, LDO - 1117.
+	Mini48SE - This version is very similar to Maple Mini, but it does not 
+		preserve its pinout. It also heavily utilizes second side to 
+		achieve maximal possible density. As a consequence this version 
+		is probably smallest STM32F103Cxx board - it has 0.5" pitch 
+		and size is only 50.5x15mm. At the same time board uses no 
+		extremely small components - all resistors and capacitors 
+		are 0603 (one even 0805), LED - 1206, LDO - 1117.
 		Uses Eagle 6.3.0
 		The design is not yet tested.
 
-	Mini64SE - Different approach to boards based on MCU in LQFP64 package. It has DIP48 format with 0.8" pitch.
-		The design follows same approach as Mini48SE and utilizes both sides. Separate versions of design for
-		F1 and F2/F4 series are provided. Version for F2/F4 uses different ESD protection and lacks external 
-		disconnect cirquitry. These changes are necessary to enable F2/F4 chips work properly in all supported
-		USB modes and with different powering (self powering and bus powering).
+	Mini64SE - Different approach to boards based on MCU in LQFP64 package. 
+		It has DIP48 format with 0.8" pitch. The design follows same 
+		approach as Mini48SE and utilizes both sides. Separate 
+		versions of design for F1 and F2/F4 series are provided. 
+		Version for F2/F4 uses different ESD protection and lacks 
+		external disconnect cirquitry. These changes are necessary 
+		to enable F2/F4 chips work properly in all supported USB modes
+		(Device/OTG) and with different powering (self powering and 
+		bus powering).
 		Uses Eagle 6.3.0 
 		Designs are not yet tested.
 
