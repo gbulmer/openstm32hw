@@ -53,6 +53,13 @@ Subdirs:
 		Uses Eagle 6.3.0 
 		Designs are not yet tested.
 
+	Orone-mini - series of boards intended to be more easily 'DIY-able'
+		than LeafLabs Maple-mini, and incorporate several improvements.
+		The first board, Orone-mini-S8A has pins 0.2" wider 
+		than Maple-mini. It is otherwise software and pin-compatible 
+		with Maple-mini (exception is 'av+' which is intended to 
+		improve the power supply capability). 
+
 	PiXe-2: 'Stamp' format, 64pin STM32F103 MCU. Eagle 5.1
                 Features: 
 		- Dual-in-line 0.1" grid
