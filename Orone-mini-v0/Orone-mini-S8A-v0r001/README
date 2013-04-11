@@ -1,0 +1,51 @@
+Orone-mini-S8A-v0r001 - Maple-mini compatible STM32F development board. 
+
+This board has not been made and tested yet. It is being released now to gather feedback, and hopefully encourage people to test it. The board has been designed for manufacture using two PCB makers. However, a goal is to ensure it is manufacturable by a wider range of PCB makers, so please feedback.
+
+This is board designed to be DIY-assemblable, but otherwise software and signal compatible with Maple-mini. It has been inspired by some of Siy's mini48 innovations, and also the availability of STM32F303 in 48pin LQFP packages.
+
+It is a breadboard-friendly form-factor; all pins are on breadboard 0.1" grid. Unlike Maple-mini, the two 20pin 0.1" headers are 0.8", and not 0.6" apart. However it is still narrow and short enough to fit into single breadboards.
+
+
+Maple-mini Software compatibility
+---------------------------------
+Orone-mini boards are designed to be completely software and bootloader compatible with Maple-mini. So all existing Maple-mini software should work.
+
+
+Maple-mini Hardware compatibility
+---------------------------------
+Orone-mini-S8x boards are not physically compatible with Maple-mini because the pin headers have been moved from 0.6" spacing to 0.8" spacing. This was necessitated by the increase in component size. The Orone--mini-S6x are physically compatible, but use smaller 0805 components which may be more challenging for some people to DIY.
+
+All Orone-mini have one change to the header pins. The Maple-mini's 'av+' power was supplied by a small voltage regulator which might close down, or be damaged when the Maple-mini was used with a power supply voltage higher than USB's voltage. Orone-mini supplies power to the 'av+' pin from a slightly larger capacity voltage regulator. The intent is to avoid damage to the small voltage regulator. However this feature has not been adequately tested yet.
+
+The orone-mini silk screen is larger-sze text and hence contains less information than Maple-mini. The increase in size is intended to be easier to read, and easier for PCB makers to produce.
+
+
+Maple-mini improvements
+-----------------------
+LeafLabs Maple-mini is a very impressive and useful development board. It offers approximately 4x more memory and CPU performance than an Arduino UNO, much improved peripherals, and about 50% more I/O pins in a tiny package that fits into a 40pin DIL IC socket. It is supported by an IDE and library similar to the Arduino UNO. However there are areas that can be improved:
+1. DIY-assemblable; this is outlined below
+2. Robust operation above 6V while providing current to e.g. LEDs and electronics
+3. USB Electro-static Discharge (ESD) protecting the Host PC and Orone-mini
+4. Socket for easier-to-connect external power
+5. Power-on indicator
+
+All of these improvements are incorporated in the Orone-mini-S8 boards, and the first three are incorporated into Orone-mini-S6 boards.
+
+
+DIY-assemblable
+---------------
+
+The Maple-mini uses a 4-layer Printed Circuit Board, which can not be modified with the 'free' version of Eagle ECAD, and is also relatively expensive. Hence, this board is a 2-layer board which can be modified using 'free' Eagle ECAD, and should be much lower cost to manufacture. The board is designed to comply with all Eagle Design Rules from OSHPark.com and Seeedstudio (see Design Rules below)
+
+Many of the Maple-mini parts are very small '0402' size. These have been replaced by 1206 (nine times bigger). This necessitated the increase in board size, which caused the spacing between pin-headers to be increased from 0.6" to 0.8". However 1206 is a component size used in UK schools to introduce children to assembling SMD boards, so I hope will be well within the ability of most people. 
+
+There is one small part used for Electro-Static Discharge (ESD) protection. This is only available in one package, and has some electrical advantages over alternatives, so it has been used. Maple-mini has no ESD protection, so this is a new part.
+
+The Maple-mini has SMD parts on both sides of the board. This is relatively difficult to make using some DIY-friendly SMD techniques. Hence all 'top' SMD components have been change to 'thru-hole' allowing for a wider range of SMD assembly techniques. The specific components effected are the USB socket, buttons and LEDs. It is also hoped that the thru-hole components will be more robust than the original SMD components.
+
+
+
+PCB Design Rules
+----------------------
+The Printed Circuit Board has been designed using the manufacturing tolerances supported by OSHPark.com and Seeedstudio 'Fusion PCB service'. There is one specific area which is flagged as an error, but is manufacturable. A special component called a 'bridge' is used to create a separate ground layer around the crystal oscillator is used. The separate ground should significantly reduce electrical noise transmission from the crystal oscillator. Eagle treats the bridge as two overlapping tracks, and flags clearance and overlap errors. These should be safe to ignore. 
