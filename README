@@ -59,6 +59,7 @@ Subdirs:
 		than Maple-mini. It is otherwise software and pin-compatible 
 		with Maple-mini (exception is 'av+' which is intended to 
 		improve the power supply capability). 
+                Not yet tested.
 
 	PiXe-2: 'Stamp' format, 64pin STM32F103 MCU. Eagle 5.1
                 Features: 

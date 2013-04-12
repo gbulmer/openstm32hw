@@ -12,6 +12,11 @@ The focus for Orone-mini is improving Maple-mini:
 
 Orone-mini-S8A-v0r001 - Maple-mini compatible STM32F development board. 
 Incorporates all 5 improvement areas
-Format: two 20pin headers 0.8" apart. 1206 Components, SOT-223 voltage regulator uses LM2937 'tab-is-ground' footprint
+Format: two 20pin headers 0.8" apart. 1206 Components, SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint
+Not yet tested.
 
 
+
+
+Thanks to: 
+Mark Rafter and Jeff Smith; Pete Harrison, Tony Wilcox, Chris Evans and David Hannaford of Midlands Micromouse and Robotics Club for advice, encouragement and expertise; Keith, Pete and Bill of Techwizz for discussions and feedback; Siy, feurig, ala42, Crenn, and everyone who contributed at LeafLabs forum. Special thanks to LeafLabs for developing the Maple-IDE and Maple-mini.

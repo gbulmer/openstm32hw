@@ -48,4 +48,8 @@ The Maple-mini has SMD parts on both sides of the board. This is relatively diff
 
 PCB Design Rules
 ----------------------
-The Printed Circuit Board has been designed using the manufacturing tolerances supported by OSHPark.com and Seeedstudio 'Fusion PCB service'. There is one specific area which is flagged as an error, but is manufacturable. A special component called a 'bridge' is used to create a separate ground layer around the crystal oscillator is used. The separate ground should significantly reduce electrical noise transmission from the crystal oscillator. Eagle treats the bridge as two overlapping tracks, and flags clearance and overlap errors. These should be safe to ignore. 
+The Printed Circuit Board has been designed using the manufacturing tolerances supported by OSHPark.com and Seeedstudio 'Fusion PCB service'. 
+
+There is a 'bridge' which is flagged as an error, but is manufacturable. The bridge is two touching pieces of copper, and looks like a piece of copper track. It is used to create a separate ground layer around the crystal oscillator. The separate ground should significantly reduce electrical noise transmission from the crystal oscillator. Eagle treats the bridge as two overlapping tracks, and flags clearance and overlap errors. These should be safe to ignore. 
+
+The other errors come from the vias within the 'tab' pin of the REG1 regulator. They have no impact on manufacturing the PCB, and can be ignored. The vias should conduct heat through to the larger area of copper on the reverse side of the board. There are several other 'heat-path vias' in the component side copper pour, but these should be more effective. 
