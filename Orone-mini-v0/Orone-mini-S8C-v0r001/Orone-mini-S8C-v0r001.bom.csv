@@ -2,15 +2,15 @@
 ,,,,,,,
 Qty,Parts,Value/Part #,RS,Farnell,Future,Device,Comment
 1,L1,2512066017Y1 FAIR-RITE,466-9603,1612060,,INDUCTOR 1206,"Reduce electrical noise into analogue ground, av-  0.08R 1A, 600R@100MHz"
-1,R1,1k,740-9117 (5%),2073877,,RESISTOR 1206,Power-On LED current limiting resistor
+1,R1,1k,740-9117 (5%),2073877,,RESISTOR1206,Power-On LED current limiting resistor
 3,"R2, R3, R4",1k,740-9117 (5%),2073877,,RESISTOR 1206,"LED current limit & switch pull-up/down, 10% okay"
 2,"R5, R6",10k,740-9081 (1%),2073878,,RESISTOR 1206,"switch pull-up/down, 10% tolerance is okay"
 1,R7,1.5k,223-2287 (1%) or 740-9123 (5%),2073891,,RESISTOR 1206,USB pull-up resistor
-1,C1,100uF,,,,CAP_POL 1206,Ceramic 100uF/16V 741-6893?
+1,C1,100uF/16V,496-3646 or 684-3926,1754094 or 1658709,,CAP_POL7343,Main power smoothing capacitor must be able to withstand the external power Vin voltage
 1,C2,10uF,723-6565 or 758-8093 etc.,2113071 or 1828831,,CAP 1206,"Multi-layer Ceramic X7R, 6.3V or higher"
 1,C3,10nF,669-8410 or 264-4141 etc ,1759350 or 1414713,,CAP 1206,"Multi-layer Ceramic X7R, 6.3V or higher"
 4,"C4, C5, C6, C7",1uF,648-0733 or 669-8448 etc.,1759436 or 9227865,,CAP 1206,"Multi-layer Ceramic X7R, 6.3V or higher"
-2,"C8, C9",18pF,698-2841,1650895 or 2218878,,CAP 1206,"Hard to get in 1206, 698-2841 us 15pF"
+2,"C8, C9",18pF,698-2841,1650895 or 2218878,,CAP 1206,"Hard to get in 1206, RS 698-2841 us 15pF"
 1,XTAL1,5RCA08000123TF80Q3,728-8272,,,CRYSTAL 5X3.2,8MHz 5x3.2mm 4-pad SMD Crystal
 2,"BUT, RESET",FSM6JH,,,,TAC_SWITCH PTH 6mm,
 1,LED1,L-2060GD,228-5427,1142454 or 1045497,,LED1.8MM-W,"1.8MM (T-3/4) Green User LED - e.g. Kingbright, Vishay or generic"
