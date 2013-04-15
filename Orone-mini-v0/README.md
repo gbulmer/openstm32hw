@@ -62,11 +62,12 @@ PCB Design Rules
 The Printed Circuit Boards (PCBs) have been designed using the manufacturing tolerances supported by OSHPark.com and Seeedstudio 'Fusion PCB service'. 
 
 There are several sets of Design Rule check errors which are flagged by Eagle. None of these prevent the board being made:  
-1.	There is a 'bridge' which is flagged as an error, but is manufacturable. The bridge is two touching pieces of copper, and looks like a piece of copper track. It is used to create a separate ground layer around the crystal oscillator. The separate ground should significantly reduce electrical noise transmission from the crystal oscillator. Eagle treats the bridge as two overlapping tracks, and flags clearance and overlap errors. These should be safe to ignore. 
 
-2.	Vias within the 'tab' pin of the REG1 regulator cause DRC errors. They have no impact on manufacturing the PCB, and can be ignored. The vias should conduct heat through to the larger area of copper on the reverse side of the board. There are several other 'heat-path vias' in the component side copper pour, but vias in REG1 tab-pin should be more effective. 
+1.	There is a 'bridge' which is flagged as an error, but is manufacturable. The bridge is two touching pieces of copper, and looks like a piece of copper track. It is used to create a separate ground layer around the crystal oscillator. The separate ground should significantly reduce electrical noise transmission from the crystal oscillator. Eagle treats the bridge as two overlapping tracks, and flags clearance and overlap errors. These should be safe to ignore.  
 
-3.	OSHPark Design Rules prevent do not cover *any* vias with solder mask. Hence any text for a silk screen (including tNames and bNames) which print across vias are flagged as "Stop Mask errors".  The appropriate resolution is to set the DRC check->Masks->Limit to 20mil, which will cover vias with a 20mil or smaller (0.5mm) drill with solder mask (tented vias).
+2.	Vias within the 'tab' pin of the REG1 regulator cause DRC errors. They have no impact on manufacturing the PCB, and can be ignored. The vias should conduct heat through to the larger area of copper on the reverse side of the board. There are several other 'heat-path vias' in the component side copper pour, but vias in REG1 tab-pin should be more effective. Note the vias are placed just beyond the edge of the tab-pin to reduce the likelihood of 'voids' under the pin.  
+
+3.	OSHPark Design Rules prevent do not cover *any* vias with solder mask. Hence any text for a silk screen (including tNames and bNames) which print across vias are flagged as "Stop Mask errors".  The appropriate resolution is to set the DRC check->Masks->Limit to 20mil, which will cover vias with a 20mil or smaller (0.5mm) drill with solder mask (tented vias).  
 
 
 Thanks to
