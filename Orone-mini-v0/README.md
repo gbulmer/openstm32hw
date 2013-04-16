@@ -14,6 +14,7 @@ However there are areas that can be improved:
 3.	USB Electro-static Discharge (ESD) protecting the Host PC and Orone-mini  
 4.	Socket for easier-to-connect external power  
 5.	Power-on indicator  
+6.	Access to all STM32F signals; two are not connected to header pins  
 
 These boards are designed to be DIY-assemblable, but otherwise software and signal compatible with Maple-mini. 
 
@@ -22,13 +23,13 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
 *	**Orone-mini-S8A-v0r001** - Maple-mini compatible STM32F development board.  
 	*Format*: two 20pin headers 0.8" apart. 1206 Components, SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
-	Improves on all 5 areas  
+	Improves on first 5 areas  
 	Not yet tested.
 
 
 *	**Orone-mini-S8C-v0r001** - Maple-mini compatible STM32F development board.    
 	*Format*: two 20pin headers 0.8" apart. 1206 Components (C1 is 2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
-	Essentially this is Orone-mini-S8A-v0r001, and so incorporates all the same improvements. However, it uses a much larger case size for C1, the supply smoothing capacitor to reduce cost, and simplify sourcing of a suitable part. C1 is 100uF/16V, Maple-mini 1206-case size has been replaced by 2917 (7343 Metric) case size.  
+	This is similar to Orone-mini-S8A-v0r001, however it incorporates all six improvements. Further, it uses a much larger case size for C1, the supply smoothing capacitor. This reduces cost, and simplifies sourcing of a suitable part. C1 is 100uF/16V, Maple-mini 1206-case size has been replaced by 2917 (7343 Metric) case size.  
 
 	Not yet tested.
 
@@ -42,7 +43,7 @@ Maple-mini Hardware compatibility
 ---------------------------------
 Orone-mini-S8x boards are not physically compatible with Maple-mini because the pin headers have been moved from 0.6" spacing to 0.8" spacing. This was a result of the increased component size used on Orone-mini. The increased component size is driven by the aim to make Orone-mini DIY-assemblable. 
 
-All Orone-mini have one change to the header pins. The Maple-mini's 'av+' power was supplied by a small voltage regulator which might close down, or be damaged when the Maple-mini was used with a power supply voltage higher than USB's voltage. Orone-mini supplies power to the 'av+' pin from a slightly larger capacity voltage regulator. The intent is to avoid damage to the small voltage regulator. However this feature has not been adequately tested yet.
+All Orone-minis have one change to the header pins. The Maple-mini's 'av+' power was supplied by a small voltage regulator which might close down, or be damaged when the Maple-mini was used with a power supply voltage much higher than USB's voltage. Orone-mini supplies power to the 'av+' pin from a slightly larger capacity voltage regulator. The intent is to avoid damage to the small voltage regulator. However this feature has not been adequately tested yet.
 
 The orone-mini silk screen is larger-size text, and hence contains less information, than Maple-mini. The increase in size is intended to be easier to read, and easier for PCB makers to produce.
 

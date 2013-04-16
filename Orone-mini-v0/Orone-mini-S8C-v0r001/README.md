@@ -22,7 +22,9 @@ However there are areas that can be improved:
 3.	USB Electro-static Discharge (ESD) protecting the Host PC and Orone-mini  
 4.	Socket for easier-to-connect external power  
 5.	Power-on indicator  
+6.	Access to all STM32F signals; two are not connected to header pins  
 
-All of these improvements are incorporated in the Orone-mini-S8 boards.
+
+All of these improvements are incorporated in the Orone-mini-S8C. The two signals of item 6, are not easy to access. Though both signals are on the standard 0.1" grid, they are on the interior of the board, and one signal is only available from the User LED pads. The idea is to enable anyone stacking a daughterboard, to use the extra two signals. Putting the signal pads on a 0.1" grid supports the use of simple daughterboard technology like matrix board, or strip board (e.g. Veroboard).
 
 Maple-mini uses very small components in order to achieve its 0.6" pin-header spacing. One of those components is expensive and difficult to source, C1, the power supply smoothing capacitor. Maple-mini uses a 1206 case size for C1. This has been replaced by a 2917 (7343 Metric) case size. 
