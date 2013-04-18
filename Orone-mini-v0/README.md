@@ -33,6 +33,12 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
 	Not yet tested.
 
+*	**Orone-mini-S8D-v0r001** - Maple-mini compatible STM32F development board.    
+	*Format*: two 20pin headers 0.8" apart. 1206 Components (C1 is 2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
+	This is similar to Orone-mini-S8C-v0r001. However, the User LED signal (33) has been moved to align with the top row of pin headers, so it could be accessed from a breadboard. This needed the LEDs to move too. Hence it is physically different from Orone-mini-S8C, and so it's a new part number.
+
+	Not yet tested.
+
 
 Maple-mini Software compatibility
 ---------------------------------
