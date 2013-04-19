@@ -39,7 +39,7 @@ Subdirs:
 		extremely small components - all resistors and capacitors 
 		are 0603 (one even 0805), LED - 1206, LDO - 1117.
 		Uses Eagle 6.3.0
-		The design is not yet tested.
+		The design is tested.
 
 	Mini64SE - Different approach to boards based on MCU in LQFP64 package. 
 		It has DIP48 format with 0.8" pitch. The design follows same 
@@ -51,7 +51,7 @@ Subdirs:
 		(Device/OTG) and with different powering (self powering and 
 		bus powering).
 		Uses Eagle 6.3.0 
-		Designs are not yet tested.
+		Design for F1 is tested, design for F4 still is not yet tested.
 
 	Orone-mini - series of boards intended to be more easily 'DIY-able'
 		than LeafLabs Maple-mini, and incorporate several improvements.
