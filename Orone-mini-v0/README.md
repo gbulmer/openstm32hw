@@ -79,4 +79,4 @@ There are several sets of Design Rule check errors which are flagged by Eagle. N
 
 Thanks to
 ---------
-Mark Rafter and Jeff Smith; Pete Harrison, Tony Wilcox, Chris Evans and David Hannaford of Midlands Micromouse and Robotics Club for advice, encouragement and expertise; Keith, Pete and Bill of Techwizz for discussions and feedback; Siy, feurig, ala42, Crenn, and everyone who contributed at LeafLabs forum. Special thanks to LeafLabs for developing the Maple-IDE and Maple-mini.
+Mark Rafter and Jeff Smith; Pete Harrison, Tony Wilcox, Chris Evans and David Hannaford of Midlands Micromouse and Robotics Club for advice, encouragement and expertise; Keith, Pete and Bill of Techwizz for discussions and feedback; Siy, feurig, ala42, Crenn, and everyone who contributed at LeafLabs forum; Laen of OSHPark.com for PCB & CAM help and expertise. Special thanks to LeafLabs for developing the Maple-IDE and Maple-mini.
