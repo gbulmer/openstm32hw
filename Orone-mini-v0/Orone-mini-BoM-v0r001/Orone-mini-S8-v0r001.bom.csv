@@ -21,7 +21,7 @@ Qty,Parts,Value/Part #,Device,RS,RS £,RS qty*£,Farnell,Future,Future £,Comment
 1,REG1,MIC5209-3.3YS,V_REG_LM2937 SOT223,727-2586,£1.078,£1.078,2100322 or 1556725,,,
 1,REG2,MCP1703T-3302E/CB,MCP170X SOT23,669-4907,£0.337,£0.337,1439518,,,
 1,ESD1,NUF2042XV6,NUF2042XV6 SOT563,,,£0.000,,NUF2042XV6T1G,£0.113,NUF2042XV6T ESD protection and USB filter
-1,FUSE1,1206L050YR (Littelfuse) or nanoSMDC050F/13.2 (TE),PTCSMD,138-679,£0.369,£0.369,1596993 or 1345942,,,500mA Polyfuse
+1,FUSE1,1206L050 (Littelfuse) or nanoSMDC050F/13.2 (TE),PTCSMD,138-679,£0.369,£0.369,1596993 or 1345942,,,"6V, 500mA Polyfuse 0.7R Max, 0.4R Typical. Littelfuse part numbers may be 1206L050YR or 1206L050-C"
 2,"J1, J2",e.g. AW 110/20-T (Assman),M20,674-2343,£0.490,£0.980,,,,"2 x 20pin 0.1” Headers. Almost any 0.1"" pitch header pins could be used, could also use 0.1"" pitch sockets."
 1,USB1,USB-Mini-B/AB thru-hole. 56579-0519 or 54819-0519 Molex,USB-MINIB TH-ODRILL,515-2011 or 515-2005,£0.093,£0.093,1125347 or 2133828 or 9786465,,,Thru-hole USB Mini B & AB same footprint
 1,J3,Molex KK 22-23-2021 or 22-11-2022 or 22-27-2021,M02POLAR,679-5583 or 679-5515 or 483-8461,£0.066,£0.066,1462926 or 1865212 or 9731148,,,"2-pin, polarised, ""External power"" socket"

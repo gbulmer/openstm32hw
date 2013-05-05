@@ -1,36 +1,36 @@
-ï»¿Digi-Key Teilenummer,Hersteller,Hersteller-Teilenummer,Kundenreferenz,Anzahl 1,Anzahl 2,Anzahl 3,Beschreibung,Anmerkungen,RoHS Status,Bleifreier Status,REACH Status
-
-497-13318-ND,STMICROELECTRONICS,STM32F303CCT6,,1,0,0,IC MCU 32BIT 256KB FLASH 48LQFP,,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
+Digi-Key Part #,Manufacturer,Manufacturers Part #,Reference,Quantity 1,Quantity 2,Quantity 3,Description,Comments,RoHS,Lead Free,REACH status
+Digi-Key Teilenummer,Hersteller,Hersteller-Teilenummer,Kundenreferenz,Anzahl 1,Anzahl 2,Anzahl 3,Beschreibung,Anmerkungen,RoHS Status,Bleifreier Status,REACH Status
+,,,,,,,,,,,
+497-13318-ND,STMICROELECTRONICS,STM32F303CCT6,,1,0,0,IC MCU 32BIT 256KB FLASH 48LQFP,,RoHS-konform,Bleifrei,Nicht verfügbar
 497-6288-ND,STMICROELECTRONICS,STM32F103CBT6,,1,0,0,MCU ARM 128K FLASH/TIMER,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jul-2011
+,,,,,,,,,,,
 450-1652-ND,TE CONNECTIVITY ALCOSWITCH,FSM6JH,,2,0,0,SWITCH TACTILE SPST-NO 0.05A 12V,,RoHS-konform,Bleifrei,Nicht betroffen
- Aug-2011
-718-1921-1-ND,VISHAY SPRAGUE (VA),TL8A0107M010C,,1,0,0,CAP TANT 100UF 10V 20% 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
+,,,,,,,,,,,
+718-1921-1-ND,VISHAY SPRAGUE (VA),TL8A0107M010C,,1,0,0,CAP TANT 100UF 10V 20% 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfügbar
 311-1152-1-ND,YAGEO (VA),CC1206JRNPO9BN180,,2,0,0,CAP CER 18PF 50V 5% NPO 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Sep-2011
+,,,,,,,,,,,
 490-1755-1-ND,MURATA ELECTRONICS (VA),GRM3195C1H113JA01D,,1,0,0,CAP CER 0.011UF 50V 5% NP0 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jul-2011
+,,,,,,,,,,,
 568-6512-1-ND,NXP SEMICONDUCTORS (VA),"PMEG3010BER,115",,2,0,0,DIODE SCHOTTKY 30V 1A SOD123W,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jul-2011
+,,,,,,,,,,,
 NUF2042XV6T1GOSCT-ND,ON SEMICONDUCTOR (VA),NUF2042XV6T1G,,1,0,0,IC FILTER USB ESD PROTECT SOT363,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jun-2012
-F2112CT-ND,LITTELFUSE INC (VA),1206L050YR,,1,0,0,FUSE PTC RESET 6V .50A 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
-P1.50KFCT-ND,PANASONIC ELECTRONIC COMPONENTS (VA),ERJ-8ENF1501V,,1,0,0,RES 1.5K OHM 1/4W 1% 1206 SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
-P10.5KFCT-ND,PANASONIC ELECTRONIC COMPONENTS (VA),ERJ-8ENF1052V,,2,0,0,RES 10.5K OHM 1/4W 1% 1206 SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
+,,,,,,,,,,,
+F2112CT-ND,LITTELFUSE INC (VA),1206L050YR,,1,0,0,FUSE PTC RESET 6V .50A 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfügbar
+P1.50KFCT-ND,PANASONIC ELECTRONIC COMPONENTS (VA),ERJ-8ENF1501V,,1,0,0,RES 1.5K OHM 1/4W 1% 1206 SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfügbar
+P10.5KFCT-ND,PANASONIC ELECTRONIC COMPONENTS (VA),ERJ-8ENF1052V,,2,0,0,RES 10.5K OHM 1/4W 1% 1206 SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfügbar
 541-1.05KFCT-ND,VISHAY DALE (VA),CRCW12061K05FKEA,,10,0,0,RES 1.05K OHM 1/4W 1% 1206 SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Dez-2011
+,,,,,,,,,,,
 576-1274-1-ND,MICREL INC (VA),MIC5209-3.3YS TR,,1,0,0,IC REG LDO 3.3V 0.5A SOT223,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jun-2012
+,,,,,,,,,,,
 MCP1703T-3302E/CBCT-ND,MICROCHIP TECHNOLOGY (VA),MCP1703T-3302E/CB,,1,0,0,IC REG LDO 3.3V 0.25A SOT23A-3,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jun-2012
+,,,,,,,,,,,
 568-6425-1-ND,NXP SEMICONDUCTORS (VA),"PDTA114ET,215",,1,0,0,TRANS PNP W/RES 50V SOT-23,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Jul-2011
-WM17121-ND,MOLEX INC,0565790519,,1,0,0,CONN RECEPT USB 5POS RT ANG PCB,,RoHS-konform,Bleifrei,Nicht betroffen
- Dez-2009
+,,,,,,,,,,,
+WM17121-ND,MOLEX INC,565790519,,1,0,0,CONN RECEPT USB 5POS RT ANG PCB,,RoHS-konform,Bleifrei,Nicht betroffen
+,,,,,,,,,,,
 887-1452-1-ND,TXC CORPORATION (VA),7B-8.000MAAJ-T,,1,0,0,CRYSTAL 8.000MHZ 18PF SMD,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Nov-2011
-MU3261-601YCT-ND,BOURNS INC (VA),MU3261-601Y,,1,0,0,BEAD FERRITE 600 OHM 200MA 3216,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfÃ¼gbar
+,,,,,,,,,,,
+MU3261-601YCT-ND,BOURNS INC (VA),MU3261-601Y,,1,0,0,BEAD FERRITE 600 OHM 200MA 3216,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht verfügbar
 445-4043-1-ND,TDK CORPORATION (VA),C3216X7R1A106K160AC,,1,0,0,CAP CER 10UF 10V 10% X7R 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Apr-2011
+,,,,,,,,,,,
 445-1592-1-ND,TDK CORPORATION (VA),C3216X7R1E105K085AA,,4,0,0,CAP CER 1UF 25V 10% X7R 1206,Andere Verpackung vorhanden,RoHS-konform,Bleifrei,Nicht betroffen
- Apr-2011
