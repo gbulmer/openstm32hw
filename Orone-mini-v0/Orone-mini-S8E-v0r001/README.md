@@ -10,7 +10,7 @@ This is board designed to be DIY-assemblable, but otherwise software and signal 
 It is a breadboard-friendly form-factor; all pins are on breadboard 0.1" grid. Unlike Maple-mini, the two 20pin 0.1" headers are 0.8", and not 0.6" apart. However it is still narrow and short enough to fit into single breadboards.
 
 Maple-mini C1 1206-case-size has been replaced by a 2917 (7343 Metric) case size. 
-Orone-mini-S8E brings two extra signals, and two extra voltages to pads compared to Maple-mini. One signal (for the LED) and the two voltages are on the headers 0.1" grid.
+Orone-mini-S8E brings two extra signals, and two extra voltages to pads compared to Maple-mini. One signal (for the LED) and the two voltages are on the headers 0.1" grid. The USB 'DISC' signal is paired with a Ground pad, 0.1" away, enabling DISC to be shorted to ground with a jumper using a 2x0.1" header.
 
 
 Maple-mini improvements
@@ -23,10 +23,10 @@ However there are areas that can be improved:
 3.	USB Electro-static Discharge (ESD) protecting the Host PC and Orone-mini  
 4.	Socket for easier-to-connect external power  
 5.	Power-on indicator  
-6.	Reduced-cost of capacitor C1 by using larger size (2917/7343)
+6.	Reduced-cost of capacitor C1 by using larger size (2917/7343)  
 7.	Access to all STM32F signals; two are not connected to header pins  
-8.	Access to the USB input voltage (after polyfuse protection)
-9.	Access to diode-protected but unregulated input voltage
+8.	Access to the USB input voltage (after polyfuse protection)  
+9.	Access to diode-protected but unregulated input voltage  
 10.	USB 'DISC' signal on 2 x 0.1" header to simplify STM32F303 USB boot
 
 

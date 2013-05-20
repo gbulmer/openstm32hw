@@ -14,10 +14,10 @@ However there are areas that can be improved:
 3.	USB Electro-static Discharge (ESD) protecting the Host PC and Orone-mini  
 4.	Socket for easier-to-connect external power  
 5.	Power-on indicator  
-6.	Reduced-cost of capacitor C1 by using larger size (2917/7343)
+6.	Reduced-cost of capacitor C1 by using larger size (2917/7343)  
 7.	Access to all STM32F signals; two are not connected to header pins  
-8.	Access to the USB input voltage (after polyfuse protection)
-9.	Access to diode-protected but unregulated input voltage
+8.	Access to the USB input voltage (after polyfuse protection)  
+9.	Access to diode-protected but unregulated input voltage  
 10.	USB 'DISC' signal on 2 x 0.1" header to simplify STM32F303 USB boot
 
 
@@ -40,9 +40,9 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
  
 *	**Orone-mini-S8E-v0r001** - Maple-mini compatible STM32F development board.    
-	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint 
-	Incorporates ten improvements.
-	Similar to Orone-mini-S8A, S8C and S8D, however is physically different from Orone-mini-S8D, and so it's a new part number.
+	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
+	Incorporates ten improvements.  
+	Similar to Orone-mini-S8A, S8C and S8D, however is physically different from Orone-mini-S8D, and so it's a new part number.  
 	Not yet tested.
 
 
