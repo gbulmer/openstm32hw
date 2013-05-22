@@ -29,7 +29,7 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 *	**Orone-mini-S8A-v0r001** - Maple-mini compatible STM32F development board.  
 	*Format*: two 20pin headers 0.8" apart. 1206 Components, SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
 	Improves on first 5 areas  
-	Successfully tested by LeafLabs forum member ventosus.
+	Successfully tested by LeafLabs forum member 'ventosus'.
 
 
 *	**Orone-mini-S8C-v0r001** - Superseded by Orone-mini-S8D.    
@@ -40,10 +40,21 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
  
 *	**Orone-mini-S8E-v0r001** - Maple-mini compatible STM32F development board.    
-	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint  
+	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	PCB requires 6mil track and 6mil space manufacturing capability  
 	Incorporates ten improvements.  
 	Similar to Orone-mini-S8A, S8C and S8D, however is physically different from Orone-mini-S8D, and so it's a new part number.  
 	Not yet tested.
+
+*	**Orone-mini-S8H-v0r001** - Maple-mini compatible STM32F development board.    
+	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	PCB requires 8mil track and 8mil space manufacturing capability    
+	Similar to Orone-mini-S8A, S8C and S8D, however uses coarser, lower-cost PCB manufacturing rules.  
+	Not yet tested.
+
+*	**CAM/OSHPark-Orone-mini-S8E-v0.cam** - OSHpark.com Eagle CAM file  
+	Not yet tested.
+
 
 
 Maple-mini Software compatibility
@@ -85,4 +96,4 @@ There are several sets of Design Rule check errors which are flagged by Eagle. N
 
 Thanks to
 ---------
-Mark Rafter and Jeff Smith; Pete Harrison, Tony Wilcox, Chris Evans and David Hannaford of Midlands Micromouse and Robotics Club for advice, encouragement and expertise; Keith, Pete and Bill of Techwizz for discussions and feedback; Siy, feurig, ala42, Crenn, soycamo and everyone who contributed at LeafLabs forum; Laen of OSHPark.com for PCB & CAM help and expertise. Special thanks to LeafLabs for developing the Maple-IDE and Maple-mini.
+Mark Rafter and Jeff Smith; Pete Harrison, Tony Wilcox, Chris Evans and David Hannaford of Midlands Micromouse and Robotics Club for advice, encouragement and expertise; Keith, Pete and Bill of Techwizz for discussions and feedback; Siy, feurig, ala42, crenn, soycamo and everyone who contributed at LeafLabs forum; Laen of OSHPark.com for PCB & CAM help and expertise. Special thanks to LeafLabs for developing the Maple-IDE and Maple-mini.

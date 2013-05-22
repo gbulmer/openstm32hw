@@ -30,6 +30,10 @@ However there are areas that can be improved:
 10.	USB 'DISC' signal on 2 x 0.1" header to simplify STM32F303 USB boot
 
 
-All of these improvements are incorporated in the Orone-mini-S8E. The signal driving the User LED (pin 33) is on a pad next to 31. The DISC signal pad is harder to access. It is not on the standard 0.1" grid, and is interior to the board. The aim is to enable anyone stacking a daughterboard, to use the extra two signals. Putting signal 33 pad on a 0.1" grid supports the use of simple daughterboard technology like matrix board, or strip board (e.g. Veroboard).
+All of these improvements are incorporated in the Orone-mini-S8E. The signal driving the User LED (pin 33) is on a pad next to 31. The DISC signal pad is harder to access. It is not on the standard 0.1" grid, and is interior to the board. 
 
-Maple-mini uses very small components in order to achieve its 0.6" pin-header spacing. One of those components is expensive and difficult to source, C1, the power supply smoothing capacitor. Maple-mini uses a 1206 case size for C1. This has been replaced by a 2917 (7343 Metric) case size. 
+Vusb and Vx are in line with the bottom header row. These voltages should only be used if you understand what you are doing. Vusb is protected by the polyfuse (FUSE1), and is otherwise connected to the host PCs USB socket. The pads are not labelled on top partly due to lack of space, and partly to avoid giving the impression that these are 'safe' signals.
+
+The aim of putting the extra signals on pads is to enable anyone making a daughterboard to easily access the extra signals and voltages. Putting signal the pads on a 0.1" grid supports the use of simple daughterboard technology like matrix board, or strip board (e.g. Veroboard).
+
+Maple-mini uses very small components in order to achieve its 0.6" pin-header spacing. Maple-mini uses a 1206 case size for C1, the power supply smoothing capacitor. This size is expensive and difficult to source. On this Orone-mini, C1 has been replaced by a 2917 (7343 Metric) case size which is much lower cost. 

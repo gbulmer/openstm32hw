@@ -10,17 +10,17 @@ The board is 2.3" long x 1" high. Most components are 1206 or larger.
 
 1206 components are too big to fit in mini-like 2.1" length
 Hence the board is lengthened from 2.1" to 2.3"
-Replaced C1 with 7343-case size
+Maple-mini's 1206 C1 is replaced with 7343-case size to reduce component cost
 
 Design Rules: OSHPark.com & Seeedstudio 'Fusion' PCB Service
 
 Routing
-Crystal tracks & Top Layer MCU tracks are 6mil/6mil in order to make enough space for components and isolation.
+6mil track 6mil space, or larger, in order to make enough space for components and isolation.
 All tracks from thru-hole (hand soldered) components, except pin headers, are 10mil or wider. This is intended to make the tracks more robust.
 
 All Bottom Layer tracks are 10mil or bigger, except Crystal tracks; this is intended to be easier to make.
 
-Copper pours have 10mil isolation; this is intended to be easier to make.
+Copper pours have 8mil isolation; this is intended to be easier to make.
 
 Vias: The three via shapes are used to give information, and help 'read' the PCB.
 VIA KEY
@@ -33,3 +33,6 @@ There are four Hidden Airwires, which do not need routing (replicated on switche
 For safety, type 'RATSNEST *' to make them visible before making any changes
 Labels for three pads, 33, DISC and GND, printed at 45 degrees, are not for components though they are sized for pins or headers.
 DRC->Restring Pads & Vias minimum increased from OSHPark 7mil to 10mil to support more PCB manufacturers design rules by providing larger annular rings.
+
+Ventosus found the ADC on Orone-mini-S8A was 'noisier' than Maple-mini. So the ADC tracks are more thoroughly separated from other tracks.
+
