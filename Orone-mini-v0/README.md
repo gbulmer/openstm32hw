@@ -33,23 +33,24 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
 
 *	**Orone-mini-S8C-v0r001** - Superseded by Orone-mini-S8D.    
-	Not yet tested.
 
 *	**Orone-mini-S8D-v0r001** - Superseded by Orone-mini-S8E.    
-	Not yet tested.
 
  
 *	**Orone-mini-S8E-v0r001** - Maple-mini compatible STM32F development board.    
-	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	*Format*: two 20pin headers 0.8" apart.  
+	*Electronics*: 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
 	PCB requires 6mil track and 6mil space manufacturing capability  
-	Incorporates ten improvements.  
 	Similar to Orone-mini-S8A, S8C and S8D, however is physically different from Orone-mini-S8D, and so it's a new part number.  
+	Incorporates ten improvements.  
 	Not yet tested.
 
 *	**Orone-mini-S8H-v0r001** - Maple-mini compatible STM32F development board.    
-	*Format*: two 20pin headers 0.8" apart. 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	*Format*: two 20pin headers 0.8" apart.   
+	*Electronics*:1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
 	PCB requires 8mil track and 8mil space manufacturing capability    
 	Similar to Orone-mini-S8A, S8C and S8D, however uses coarser, lower-cost PCB manufacturing rules.  
+	Incorporates ten improvements.  
 	Not yet tested.
 
 *	**CAM/OSHPark-Orone-mini-S8E-v0.cam** - OSHpark.com Eagle CAM file  
@@ -91,7 +92,7 @@ There are several sets of Design Rule check errors which are flagged by Eagle. N
 
 2.	Vias within the 'tab' pin of the REG1 regulator cause DRC errors. They have no impact on manufacturing the PCB, and can be ignored. The vias should conduct heat through to the larger area of copper on the reverse side of the board. There are several other 'heat-path vias' in the component side copper pour, but vias in REG1 tab-pin should be more effective. Note the vias are placed just beyond the edge of the tab-pin to reduce the likelihood of 'voids' under the pin.  
 
-3.	OSHPark Design Rules prevent do not cover *any* vias with solder mask. Hence any text for a silk screen (including tNames and bNames) which print across vias are flagged as "Stop Mask errors".  The appropriate resolution is to set the DRC check->Masks->Limit to 20mil, which will cover vias with a 20mil or smaller (0.5mm) drill with solder mask (tented vias).  
+3.	OSHPark Design Rules prevent via 'tenting'; Eagle generated solder mask will not cover *any* vias with solder mask. Hence any text for a silk screen (including tNames and bNames) which print across vias are flagged as "Stop Mask errors".  Small vias should be 'tented'. Set the DRC check->Masks->Limit to 20mil, which will cover vias with a 20mil or smaller (0.5mm) drill with solder mask (tented vias).  
 
 
 Thanks to
