@@ -39,7 +39,7 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
  
 *	**Orone-mini-S8E-v0r001** - Maple-mini compatible STM32F development board.    
 	*Format*: two 20pin headers 0.8" apart.  
-	*Electronics*: 1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	*Electronics*:1206 Components except NUF2042XV6, C1 is larger 2917/7343, SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
 	PCB requires 6mil track and 6mil space manufacturing capability  
 	Similar to Orone-mini-S8A, S8C and S8D, however is physically different from Orone-mini-S8D, and so it's a new part number.  
 	Incorporates ten improvements.  
@@ -47,10 +47,19 @@ All designs are breadboard-friendly form-factors; all pins are on breadboard 0.1
 
 *	**Orone-mini-S8H-v0r001** - Maple-mini compatible STM32F development board.    
 	*Format*: two 20pin headers 0.8" apart.   
-	*Electronics*:1206 Components, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
-	PCB requires 8mil track and 8mil space manufacturing capability    
+	*Electronics*:1206 Components except NUF2042XV6, C1 is larger 2917/7343, SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	PCB requires *8mil track and 8mil space* manufacturing capability    
 	Similar to Orone-mini-S8A, S8C and S8D, however uses coarser, lower-cost PCB manufacturing rules.  
 	Incorporates ten improvements.  
+	Successfuly tested by Forum members Crenn and 
+
+
+*	**Orone-mini-S8J-v0r001** - Maple-mini compatible STM32F development board.    
+	*Format*: two 20pin headers 0.8" apart.   
+	*Electronics*:1206 Components or larger, except C1 (2917/7343), SOT-223 voltage regulator uses LM2937-style, 'tab-is-ground', footprint.  
+	PCB requires *8mil track and 8mil space*, 0.4mm via manufacturing capability    
+	Similar to Orone-mini-S8A, S8C and S8D, however uses coarser, lower-cost PCB manufacturing rules.  
+	Incorporates twelve improvements.  
 	Not yet tested.
 
 *	**CAM/OSHPark-Orone-mini-S8E-v0.cam** - OSHpark.com Eagle CAM file  
