@@ -3,20 +3,20 @@ Orone-mini-S8J-v0r001
 
 Maple-mini compatible STM32F development board. 
 
-This board is a significant evolution of Orone-mini-S8J-v0r001. 
-Specifically, the NUF2042XV6 USB EMI, termination and ESD device has been replaced. This part caused several makers to feedback that it was awkwardly small and fiddly to place.
+This board is a significant evolution of Orone-mini-S8H. 
+Specifically, the NUF2042XV6 USB EMI, termination and ESD device has been replaced. Several makers feedback that it was awkwardly small and fiddly to place.
 
 The replacement part is an STF202-22, which is 4x bigger than the NUF2042XV6.   This STF202-22 is used in such a way that its Vusb ESD and overvoltage protection can't protect the Vusb line. So a separate TVS diode is used to protect the Vusb connection.
 
 All earlier Orone-mini-S8x boards had the AV+ supply voltage header pin connected to the main digital power supply. This was done in order to reduce the problem which had effected Maple-mini boards of too much power being drawn from AV+, and damaging the voltage regulator. 
 
-However, Ventosus made measurements of ADC noise, using circuits powered bu yhe on-board power supply. These ranked the ADC noise performance as Maple analogie supply best, then Orone-mini-S8H-v0r001's digital supply, then Maple's digital supply. 
+However, Ventosus made measurements of ADC noise, using circuits powered buy the on-board power supply. These ranked the ADC noise performance as Maple analogie supply best, then Orone-mini-S8H-v0r001's digital supply, then Maple's digital supply. 
 
 Orone-mini-S8J-v0r001's analogue power supply has been connected to av+, to improve Orone-mini's ADC noise. 
 
-PLEASE NOTE the av+ power supply should not be used above an input voltage of approximately 9V and 30mA, as the small voltage regulator will overheat, and may shutdown or be damaged.
+PLEASE NOTE the av+ power supply should not be used above an input voltage of approximately 9V and 20mA, as the small voltage regulator may overheat, shutdown or be damaged.
 
-Orone-mini-S8J-v0r001's power supply and ground plane have also been reworked to reduce electrical noise.
+Orone-mini-S8H's power routing and ground plane have been reworked to reduce electrical noise.
 
 
 This board has not been made and tested yet. It is being released now to gather feedback, and hopefully encourage people to test it. The board has been designed for manufacture using two PCB makers. However, a goal is to ensure it is manufacturable by a wider range of PCB makers, so please feedback.
@@ -36,7 +36,7 @@ LeafLabs Maple-mini is a very impressive and useful Open Source Hardware develop
 However there are areas that can be improved:  
 1.	DIY-assemblable - all parts are approaximately 1206 size or larger 
 2.	Robust operation above 6V while providing current to e.g. LEDs and electronics  
-3.	USB Electro-Static Discharge (ESD) protecting the Host PC and Orone-mini  
+3.	USB Electrostatic Discharge (ESD) protecting the Host PC and Orone-mini  
 4.	Two-pin Molex kk Socket for easier-to-connect external power source
 5.	Power-on indicator  
 6.	Access to all STM32F signals; two signals are not connected to Maple-mini header pins    
