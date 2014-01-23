@@ -1,4 +1,4 @@
-Orone-mini-S8J-v0r001
+Orone-mini-S8K-v0r001
 Copyright 2013 G Bulmer
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
@@ -19,7 +19,10 @@ Routing
 8mil track 8mil space, to enable a wide range of PCB manufacturers to reliably make the board.
 Tracks from thru-hole (hand soldered) components, except pin headers, are 10mil or wider. This is intended to make the tracks more robust.
 
-The Bottom Layer has been reworked to improve ground and reduce electrical noise.
+The Bottom Layer has been significantly reworked to improve ground and reduce electrical noise.
+
+The location of DISC and Ground pins have moved, causing the creation of this new part number.
+USB shield is connected to USB ground via an RC network which should discharge static from USB ground into the USB shield, while providing enough low-frequency impedance to avoid creating a ground loop.
 
 Vias: The three via shapes are used to give information, and help 'read' the PCB.
 VIA KEY
@@ -33,6 +36,6 @@ For safety, type 'RATSNEST *' to make them visible before making any changes
 Two pads 33 and DISC, printed at 45 degrees, are signals, not for components.
 DRC->Restring Pads & Vias minimum increased from OSHPark 7mil to 10mil to support more PCB manufacturers design rules by providing larger annular rings.
 
-Ventosus found the ADC on Orone-mini-S8A was 'noisier' than Maple's when the test rig was powered from the analogue power supply. So Orone-mini-S8J has been changed to provide analogue power on av+. Also the crystal routing has been reworked to reduce stray noise. The ADC tracks are more thoroughly separated from other tracks compared to pre-Orone-mini-S8H designs.
+Ventosus found the ADC on Orone-mini-S8A was 'noisier' than Maple's when the test rig was powered from the analogue power supply. So Orone-mini-S8K has been changed to provide analogue power on av+. Also the crystal routing has been reworked to reduce stray noise. The ADC tracks are more thoroughly separated from other tracks compared to pre-Orone-mini-S8H designs.
 
 There are small changes to the user-side silk screen to make SWD debugging pins easier to identify.

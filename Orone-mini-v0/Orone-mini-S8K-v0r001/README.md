@@ -1,4 +1,4 @@
-Orone-mini-S8J-v0r001
+Orone-mini-S8K-v0r001
 =====================
 
 Maple-mini compatible STM32F development board. 
@@ -10,9 +10,9 @@ The replacement part is an STF202-22, which is 4x bigger than the NUF2042XV6.   
 
 All earlier Orone-mini-S8x boards had the AV+ supply voltage header pin connected to the main digital power supply. This was done in order to reduce the problem which had effected Maple-mini boards of too much power being drawn from AV+, and damaging the voltage regulator. 
 
-However, Ventosus made measurements of ADC noise, using circuits powered buy the on-board power supply. These ranked the ADC noise performance as Maple analogie supply best, then Orone-mini-S8H-v0r001's digital supply, then Maple's digital supply. 
+However, Ventosus made measurements of ADC noise, using circuits powered buy the on-board power supply. These ranked the ADC noise performance as Maple analogue supply best, then Orone-mini-S8H-v0r001's digital supply, then Maple's digital supply. 
 
-Orone-mini-S8J-v0r001's analogue power supply has been connected to av+, to improve Orone-mini's ADC noise. 
+Orone-mini-S8K-v0r001's analogue power supply has been connected to av+, to improve Orone-mini's ADC noise. 
 
 PLEASE NOTE the av+ power supply should not be used above an input voltage of approximately 9V and 20mA, as the small voltage regulator may overheat, shutdown or be damaged.
 
@@ -26,7 +26,7 @@ This is board designed to be DIY-assemblable, but otherwise software and signal 
 It is a breadboard-friendly form-factor; all pins are on breadboard 0.1" grid. Unlike Maple-mini, the two 20pin 0.1" headers are 0.8", and not 0.6" apart. However it is still narrow and short enough to fit into single breadboards.
 
 Maple-mini C1 1206-case-size has been replaced by a 2917 (7343 Metric) case size. 
-Orone-mini-S8J brings two extra signals, and two new voltages, to header pads compared to Maple-mini. These additions do not effect any Maple-mini pins. The pads are on the same 0.1" grid as the headers.
+Orone-mini-S8K brings two extra signals, and two new voltages, to header pads compared to Maple-mini. These additions do not effect any Maple-mini pins. The pads are on the same 0.1" grid as the headers.
 
 
 Orone-mini improvements over Maple-mini
@@ -41,9 +41,11 @@ However there are areas that can be improved:
 5.	Power-on indicator  
 6.	Access to all STM32F signals; two signals are not connected to Maple-mini header pins    
 7.	Access to Vusb, the 'raw' USB voltage source, and the 'pre-regulator' voltage Vx
+8.     Connecting USB Ground to USB shield for an Electrostatic discharge path
+9.     Connecting USB Ground to USB shield via RC filter to avoid ground loops
 
 
-All of these improvements are incorporated in the Orone-mini-S8J. The signal driving the User LED is on pin 33, next to pin 31. The DISC signal pad is on the standard 0.1" grid, but is interior to the board. Access to DISC enables the user to easily upload programs into an unprogrammed STM32F303, removing the need for any programming device (e.g. ST-LINK, USB-to-UART, or JTAG).
+All of these improvements are incorporated in the Orone-mini-S8K. The signal driving the User LED is on pin 33, next to pin 31. The DISC signal pad is on the standard 0.1" grid, but is interior to the board. Access to DISC enables the user to easily upload programs into an unprogrammed STM32F303, removing the need for any programming device (e.g. ST-LINK, USB-to-UART, or JTAG).
 
 Vusb and Vx are on the bottom header row, and are not part of the Maple-mini compatible pins. These new voltages should only be used if you understand what you are doing. Vusb in particular is not fully protected, and connects to the host PCs USB socket. The pads are not labelled on top partly due to lack of space, and partly to avoid giving the impression that these are 'easy-to-use' signals.
  
